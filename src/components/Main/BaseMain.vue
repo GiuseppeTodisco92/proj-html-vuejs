@@ -10,7 +10,8 @@ export default {
  
     name: 'BaseMain',
     components: { 
-        SectionHero
+        SectionHero,
+        
          }
 }
 </script>
