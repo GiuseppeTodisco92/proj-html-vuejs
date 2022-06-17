@@ -1,6 +1,8 @@
 <template>
-  <div class="card_testimonial">
+  <div class="card_testimonial d-flex flex-column align-items-center">
+
     <img :src="require('@/assets/img/' + card.image)" :alt="card.title">
+   
     <h3>{{card.title}}</h3>
     <p>{{card.text}}</p>
 
@@ -21,6 +23,7 @@ export default {
  padding: 30px 0px;
   margin: 2.5rem;
 
+ 
   img{
   border-radius: 100%;
   width: 100px;
