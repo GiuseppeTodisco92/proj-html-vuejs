@@ -2,19 +2,19 @@
   <footer >
     <div class="footer-top py-5">
       <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-4">
+      <div class="row container justify-content-center">
+        <div class="col-3">
           <h5 class="py-2">about</h5>
           <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia deserunt temporibus, eveniet a provident doloribus et minima pariatur ducimus dicta quasi, quod quisquam eligendi. Cumque fugit aliquam natus ut.</p>
           <div><img src="../../assets/img/avada-movers-logo.png" alt="avada-movers-logo" class="logo_movers"></div>
         </div>
-        <div class="col-4 px-5">
+        <div class="col-3 px-5">
           <h5 class="py-2 ">avada movers</h5>
           <ul class="py-2">
             <li class="py-2" v-for="(linkAvada, index) in NavMovers" :key="index"><a :class="{active_green : linkAvada.current}" href="#" >{{linkAvada.link}}</a></li>
           </ul>
         </div>
-        <div class="col-4 px-5">
+        <div class="col-3 px-5">
           <h5 class="py-2 ">recent posts</h5>
           <ul class="py-2">
           <li class="py-2" v-for="(linkPosts, index) in NavRecentPosts" :key="index"><a  href="#">{{linkPosts.link}}</a></li>

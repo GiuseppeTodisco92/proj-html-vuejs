@@ -1,14 +1,18 @@
 <template>
-  <section class="d-flex justify-content-center align-items-center">
-    <div class="container text-center">
+  <section class="d-flex justify-content-center align-items-center" id="SectionTestimonials">
+    <div class="container">
+        <div class="container text-center">
       <h4>happy customers</h4>
       <h2>Testimonals</h2>
 
       <div class="row justify-content-center">
-        <CardTestimonial class="col-4" v-for="(card,index) in cards" :key="index"  :card="card"/>
+        <CardTestimonial class="col-2" v-for="(card,index) in cards" :key="index"  :card="card"/>
       </div>
       <custom-button :NameButton="TextButton"/>
     </div>
+
+    </div>
+  
   </section>
 </template>
 

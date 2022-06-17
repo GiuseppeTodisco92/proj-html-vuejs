@@ -3,14 +3,9 @@
     <div class="container text-center">
       <h4>we are a professional</h4>
       <h2>Full-service Solution</h2>
-
-      <div class="row justify-content-center">
-          
-          <!-- <img :src="card.image" :alt="card.title">
-          <h2>{{card.title}}</h2>
-          <p>{{card.text}}</p> -->
+    
+      <div class="row container justify-content-center">
           <CardService class="col-2" v-for="(card,index) in cards" :key="index"  :card="card" />
-        
       </div>
 
     </div>

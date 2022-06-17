@@ -19,6 +19,7 @@ export default {
 <style lang="scss" scoped>
 .card_testimonial{
  padding: 30px 0px;
+  margin: 2.5rem;
 
   img{
   border-radius: 100%;
@@ -33,7 +34,6 @@ h3{
 
 p{
     font-size: .625rem;
-    padding: 1.25rem 100px;
     font-style: italic;
   }
 

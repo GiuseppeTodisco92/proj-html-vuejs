@@ -27,4 +27,9 @@ export default {
         font-weight: bold;
         border: none;
     }
+
+    button:hover{
+       background-color: var(--ninthary-color);
+       
+    }
 </style>
