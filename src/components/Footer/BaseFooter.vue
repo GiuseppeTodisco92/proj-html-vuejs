@@ -1,9 +1,9 @@
 <template>
-  <footer>
+  <footer >
     <div class="footer-top py-5">
       <div class="container">
-      <div class="row">
-        <div class="col-3">
+      <div class="row justify-content-center">
+        <div class="col-4">
           <h5 class="py-2">about</h5>
           <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia deserunt temporibus, eveniet a provident doloribus et minima pariatur ducimus dicta quasi, quod quisquam eligendi. Cumque fugit aliquam natus ut.</p>
           <div><img src="../../assets/img/avada-movers-logo.png" alt="avada-movers-logo" class="logo_movers"></div>
