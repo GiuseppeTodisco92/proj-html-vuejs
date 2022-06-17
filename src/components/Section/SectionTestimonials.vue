@@ -7,19 +7,25 @@
       <div class="row justify-content-center">
         <CardTestimonial class="col-4" v-for="(card,index) in cards" :key="index"  :card="card"/>
       </div>
-
+      <custom-button :NameButton="TextButton"/>
     </div>
   </section>
 </template>
 
 <script>
 import CardTestimonial from '../Commons/CardTestimonial.vue'
+import CustomButton from '../Commons/CustomButton.vue'
 
 export default {
-  components: {CardTestimonial },
+ 
     name:"SectionTestimonials",
+     components: {
+      CardTestimonial,
+      CustomButton 
+      },
     data(){
       return{
+        TextButton: "read more testimonials",
         cards:[
       {
         image:'avada-movers-johndoe-final-200x200.jpg',
