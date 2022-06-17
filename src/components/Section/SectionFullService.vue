@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 section{
-  height: 31.25rem;
+  height: 37.5rem;
   h4{
       font-size: .75rem;
       font-weight: bold;

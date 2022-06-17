@@ -36,7 +36,7 @@ export default {
 .card_service{
     background-color:var(--quintary-color);
     padding: .625rem;
-    margin: .625rem;
+    margin: 1.25rem;
    
 
     h3{
